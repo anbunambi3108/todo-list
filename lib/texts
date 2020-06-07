@@ -1,0 +1,63 @@
+              // children: <Widget>[
+              //   Padding(
+              //     padding: const EdgeInsets.all(18.0),
+              //     child: Row(
+              //       children: <Widget>[
+              //         Container(
+              //           width: 60.0,
+              //           height: 60.0,
+              //           decoration: BoxDecoration(
+              //               shape: BoxShape.circle,
+              //               image: DecorationImage(
+              //                   image: new NetworkImage(widget.user.photoUrl),
+              //                   fit: BoxFit.cover)),
+              //         ),
+              //         //this is for displaying welcome msg and user name
+              //         Expanded(
+              //           child: Padding(
+              //             padding: const EdgeInsets.only(left: 18.0),
+              //             child: new Column(
+              //                 mainAxisAlignment: MainAxisAlignment.center,
+              //                 crossAxisAlignment: CrossAxisAlignment.start,
+              //                 children: <Widget>[
+              //                   new Text(
+              //                     "welcome",
+              //                     style: new TextStyle(
+              //                         fontSize: 18.0, color: Colors.white),
+              //                   ),
+              //                   new Text(
+              //                     widget.user.displayName,
+              //                     style: new TextStyle(
+              //                         fontSize: 24.0, color: Colors.white),
+              //                   ),
+              //                 ]),
+              //           ),
+              //         ),
+              //         //this is for the exit icon
+              //         new IconButton(
+              //             icon: Icon(
+              //               Icons.exit_to_app,
+              //               color: Colors.white,
+              //               size: 30,
+              //             ),
+              //             onPressed: () {})
+              //       ],
+              //     ),
+              //   ),
+                //this is for the app name
+
+                ___________________________________________________________________
+                 # - family: Amatic_SC
+    #   fonts:
+    #     - asset: fonts/Amatic_SC-Regular.ttf
+    #     - asset: fonts/Amatic_SC-Bold.ttf
+    # - family: Courgette
+    #   fonts:
+    #     - asset: fonts/Courgette-Regular.ttf
+    # - family: Dancing_Script
+    #   fonts:
+    #     - asset: fonts/DancingScript-variableFont_wght.ttf
+    #     - asset: fonts/DancingScript-Bold.ttf
+    #     - asset: fonts/DancingScript-Medium.ttf
+    #     - asset: fonts/DancingScript-Regular.ttf
+    #     - asset: fonts/DancingScript-SemiBold.ttf
