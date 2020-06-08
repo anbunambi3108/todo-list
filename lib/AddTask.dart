@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class AddTask extends StatefulWidget {
-  AddTask();
+  AddTask([Type myApp]);
   @override
   _AddTaskState createState() => _AddTaskState();
 }
@@ -144,7 +144,8 @@ class _AddTaskState extends State<AddTask> {
                         size: 27,
                       ),
                       onPressed: () {
-                        _addData();
+                        // _addData();
+                        Navigator.pop(context);
                       }),
                   IconButton(
                       icon: Icon(
